@@ -4,7 +4,7 @@ Instructions for setting up a NFS server using Docker. Originally from [here](ht
 
 ## Setup
 
-Setup a directory to share on your computer/in your WSL instance. 
+Setup a directory to share on your computer/in your WSL instance. The directory needs to be within the WSL drive to work, mounting a NTFS drive doesn't work.
 
 ```
 mkdir /tmp/fileshare
